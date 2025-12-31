@@ -4,14 +4,12 @@
 
 # Numida Full Stack Assessment Implementation (v2)
 
-### second time is the chsrm :)
-
-### TLDR: Watch the [demo here](https://drive.google.com/file/d/1ciIAoplWAX2VnSb50BoON4SnNm3T-pf3/view?usp=sharing) or try the app [here](https://numida-fse.vercel.app)
+### second time is the charm :)
 
 iPhone style UI full-stack loan management application for tracking loans, payments, and payment statuses. Built with React 19, TypeScript, and a Python Flask backend.
 
 
-### [Watch Demo](https://drive.google.com/file/d/1ciIAoplWAX2VnSb50BoON4SnNm3T-pf3/view?usp=sharing) | [Try Live App](https://numida-fse.vercel.app)
+### [Watch Demo]() | [Try Live App](https://numida-fse-v2.vercel.app/)
 
 ---
 
@@ -63,25 +61,23 @@ full-stack/
 ### Frontend (Vercel)
 | | |
 |---|---|
-| **URL** | [https://numida-fse.vercel.app](https://numida-fse.vercel.app) |
+| **URL** | [https://numida-fse-v2.vercel.app](https://numida-fse-v2.vercel.app) |
 | **Platform** | Vercel |
 | **Deployment** | Automatic from `main` branch |
 
-### Backend (Render)
+### Backend (Google Cloud)
 | | |
 |---|---|
-| **GraphQL API** | [https://numida-fse.onrender.com/graphql](https://numida-fse.onrender.com/graphql) |
-| **REST API** | [https://numida-fse.onrender.com](https://numida-fse.onrender.com) |
-| **Platform** | Render |
+| **GraphQL API** | [https://numida-backend-78838460342.us-central1.run.app/graphql](https://numida-backend-78838460342.us-central1.run.app/graphql) |
+| **REST API** | [https://numida-backend-78838460342.us-central1.run.app](https://numida-backend-78838460342.us-central1.run.app) |
+| **Platform** | Google Cloud Run |
 | **Deployment** | Automatic from `main` branch |
-
-> ⚠️ **Note**: Render spins down after 10 mins of inactivity. Initial load may take ~30 seconds while the service restarts.
 
 ---
 
 ## Features
 
-### ✅ GraphQL Data Layer
+### GraphQL Data Layer
 
 Query loans with embedded payment data and computed fields:
 
@@ -121,7 +117,7 @@ Query all payments separately:
 }
 ```
 
-### ✅ REST API for Payments
+### REST API for Payments
 
 Add a new payment to a loan:
 
@@ -135,7 +131,7 @@ Content-Type: application/json
 }
 ```
 
-### ✅ Payment Status Categorization
+### Payment Status Categorization
 
 Payments are automatically categorized based on payment timing:
 
@@ -146,14 +142,14 @@ Payments are automatically categorized based on payment timing:
 | **Defaulted** | Paid more than 30 days late | 🔴 Red |
 | **Unpaid** | No payment date recorded | ⚪ Grey |
 
-### ✅ iPhone-Style UI
+### Modern Mobile-Inspired Experience
 
-- Custom iPhone simulator wrapper with realistic bezels
-- Animated loading screen with progress bar
-- Home screen with app icons
-- Status bars (home & in-app)
+- Simulated mobile (iPhone-style) app presentation
+- Animated splash/loading sequence with progress
+- Custom "home" screen featuring app launchers/icons
+- Realistic status bars for both home and in-app views
 
-### ✅ Loan Management Features
+### Loan Management Features
 
 - **Loan List**: View all loans with principal amounts
 - **Expandable Details**: Click to reveal repayment progress
@@ -162,7 +158,7 @@ Payments are automatically categorized based on payment timing:
 - **Progress Tracking**: Visual progress bar for repayment
 - **Overdue Indicators**: Days overdue shown for defaulted loans
 
-### ✅ Refactored Loan Calculator
+### Refactored Loan Calculator
 
 Clean, typed component with:
 - Props-based interface
@@ -294,5 +290,5 @@ This project was created as part of a full-stack assessment.
 ---
 
 <p align="center">
-  <i>Built with ☕ and lots of fun</i>
+  <i>Built by a passionate human with ☕ and lots of fun</i>
 </p>
