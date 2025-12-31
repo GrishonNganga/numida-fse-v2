@@ -9,7 +9,7 @@
 iPhone style UI full-stack loan management application for tracking loans, payments, and payment statuses. Built with React 19, TypeScript, and a Python Flask backend.
 
 
-### [Watch Demo]() | [Try Live App](https://numida-fse-v2.vercel.app/)
+### [Watch Demo](https://drive.google.com/file/d/19St9reTMa2fOUwyOmueDIHUbxf8ix-rL/view?usp=sharing) | [Try Live App](https://numida-fse-v2.vercel.app/)
 
 ---
 
