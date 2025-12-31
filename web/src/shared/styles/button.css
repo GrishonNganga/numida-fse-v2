@@ -1,0 +1,109 @@
+button {
+    border: none;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #2C839B;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: #216c83;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+button:active {
+    background-color: #216c83;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.button-primary {
+    background-color: #2C839B;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button-primary:hover {
+    background-color: #216c83;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.button-primary:active {
+    background-color: #216c83;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.button-outline {
+    background-color: #ffffff;
+    color: #2C839B;
+    border: 1px solid #2C839B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-outline:hover {
+    background-color: #2C839B;
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.button-outline:active {
+    background-color: #216c83;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.button-secondary {
+    background-color: #3BC5E5;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button-secondary:hover {
+    background-color: #2C839B;
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.button-secondary:active {
+    background-color: #216c83;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.button-danger {
+    background-color: #FF0000;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button-danger:hover {
+    background-color: #FF0000;
+    color: #ffffff;
+}

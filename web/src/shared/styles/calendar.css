@@ -1,0 +1,52 @@
+.calendar-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.calendar {
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #000000;
+    &::placeholder {
+        color: #999999;
+    }
+}
+.calendar:focus {
+    outline: none;
+    border-color: #2C839B;
+}
+.calendar:active {
+    border-color: #2C839B;
+}
+
+.calendar::-webkit-calendar-picker-indicator {
+    filter: invert(34%) sepia(78%) saturate(953%) hue-rotate(151deg) brightness(92%) contrast(96%);
+    /* This filter produces #2C839B */
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.calendar:focus::-webkit-calendar-picker-indicator,
+.calendar:hover::-webkit-calendar-picker-indicator {
+    opacity: 1;
+}
+
+.calendar::-moz-calendar-picker-indicator {
+    filter: invert(34%) sepia(78%) saturate(953%) hue-rotate(151deg) brightness(92%) contrast(96%);
+    /* This filter produces #2C839B */
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.calendar:focus::-moz-calendar-picker-indicator,
+.calendar:hover::-moz-calendar-picker-indicator {
+    opacity: 1;
+}

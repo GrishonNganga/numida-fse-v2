@@ -1,0 +1,14 @@
+.add-payment-drawer-container {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.add-payment-drawer-buttons {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    justify-content: end;
+}

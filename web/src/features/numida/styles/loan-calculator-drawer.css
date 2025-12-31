@@ -1,0 +1,52 @@
+.loan-calculator-container {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.loan-calculator-slider-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.loan-calculator-slider-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.loan-calculator-slider {
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    appearance: none;
+    background: #e0e0e0;
+    outline: none;
+}
+
+.loan-calculator-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #2C839B;
+    cursor: pointer;
+}
+
+.loan-calculator-results {
+    margin-top: 8px;
+}
+
+.loan-calculator-result-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.loan-calculator-divider {
+    height: 1px;
+    background: #e0e0e0;
+}
+

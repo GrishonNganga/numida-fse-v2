@@ -1,0 +1,33 @@
+.text {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text-small {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.text-medium { 
+    font-size: 14px;
+}
+
+.text-large {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text-normal {
+    font-weight: 500;
+}
+.text-bold {
+    font-weight: 600;
+}
+
+.text-bolder {
+    font-weight: 700;
+}
+
+.text-boldest {
+    font-weight: 800;
+}

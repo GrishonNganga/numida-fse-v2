@@ -1,0 +1,8 @@
+.loans-list-container {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    gap: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+}

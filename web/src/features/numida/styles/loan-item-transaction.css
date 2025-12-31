@@ -1,0 +1,46 @@
+.loan-item-transaction-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.loan-item-transaction-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.loan-item-transaction-details-icon-container {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0fbe6;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.loan-item-transaction-details-icon {
+    width: 20px;
+    height: 20px;
+    color: #178921;
+
+}
+
+.loan-item-transaction-details-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.loan-item-transaction-details-content-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    width: fit-content;
+}

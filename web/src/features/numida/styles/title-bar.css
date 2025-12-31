@@ -1,0 +1,45 @@
+.title-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.title-bar-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.title-bar-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.title-bar-action-item {
+    width: 20px;
+    height: 20px;
+    color: #464646;
+    cursor: pointer;
+    background-color: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    &:hover {
+        background-color: #f0f0f0;
+    }
+    &:active {
+        background-color: #e0e0e0;
+    }
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
